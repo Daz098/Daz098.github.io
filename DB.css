@@ -1,16 +1,16 @@
 body {
-  background-color: lightgrey;
-  font-family: verdana;
-  color: black;
+	padding-top: 25px;
+	max-width: 800px;
+  	margin: auto;
+  	background-color: lightgrey;
+  	font-family: verdana;
+  	color: black;
 }
-
 h1 {
   
 }
-
 h1.top {
 	color: white;
-	
 }
 p {
   
@@ -20,13 +20,20 @@ p {
 	color: white;
 	border: 2px solid black;
 	padding-left: 50px
+
+
 }
 #face {
 	 border-radius: 50%;
 	 border: 2px solid black;
 }
 
+a.link {
+	color: white;
+}
 
+
+/* This part is taken directly from https://www.w3schools.com/howto/howto_css_modal_images.asp */
 /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;
@@ -41,7 +48,7 @@ p {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 80px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -55,8 +62,8 @@ p {
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
