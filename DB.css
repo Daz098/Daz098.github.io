@@ -1,0 +1,16 @@
+body {
+  background-color: lightgrey;
+}
+h1 {
+  color: black;
+  font-family: verdana;
+}
+p {
+  color: black;
+  font-family: verdana;
+}
+#topscreen {
+	background-color: grey;
+	color: white;
+	border: 2px solid black;
+}
